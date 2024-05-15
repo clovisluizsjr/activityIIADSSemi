@@ -7,7 +7,7 @@ const host = '0.0.0.0';
 const app = express();
 var listaAlunos = [];
 
-app.use(express.static(path.join(process.cwd(), 'publico')));
+app.use(express.static(path.join(process.cwd(), 'public')));
 
 app.use('/cadastrarAluno', (req,resp)=>{
     const nome = req.query.nome;

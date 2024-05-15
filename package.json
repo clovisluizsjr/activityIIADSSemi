@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/clovisluizsjr/activityIIADSSemi/issues"
   },
-  "homepage": "https://github.com/clovisluizsjr/activityIIADSSemi#readme"
+  "homepage": "https://github.com/clovisluizsjr/activityIIADSSemi#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
